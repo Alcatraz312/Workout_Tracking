@@ -1,2 +1,2 @@
 # Workout_Tracking
-<h1>Workout tracker<h1>
+<h1 align = "center">Workout tracker<h1>
