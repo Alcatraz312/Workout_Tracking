@@ -2,7 +2,7 @@ import requests
 import datetime
 from keys import *
 
-exercise = input()
+exercise = input("What did you do today : ")
 
 api_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
