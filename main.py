@@ -22,6 +22,6 @@ params = {
 
 response = requests.post(api_endpoint, json=params, headers=headers)
 result = response.json()
-print(result)
+
 
 
