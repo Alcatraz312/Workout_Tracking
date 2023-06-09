@@ -17,7 +17,7 @@ params = {
     "weight_kg" : "60",
     "height_cm" : "182.88",
     "age" : "18"
-
+    
 }
 
 response = requests.post(api_endpoint, json=params, headers=headers)
