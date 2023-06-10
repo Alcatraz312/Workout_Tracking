@@ -43,7 +43,7 @@ for exercise in result["exercises"]:
         }
     }
 
-    sheet_response = requests.post(sheety_endpoint,json=sheet_inputs)
+    sheet_response = requests.post(sheety_endpoint,json=sheet_inputs, headers= Authorization_header)
 
     print(sheet_response.text)
 
