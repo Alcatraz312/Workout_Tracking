@@ -28,6 +28,10 @@ result = response.json()
 today_date = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
 
+Authorization_header = {
+    "Authorization" : 
+}
+
 for exercise in result["exercises"]:
     sheet_inputs = {
         "workout": {
