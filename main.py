@@ -1,5 +1,5 @@
 import requests
-import datetime
+from datetime import *
 from keys import *
 
 exercise = input("What did you do today : ")
@@ -40,5 +40,7 @@ for exercise in result["exercises"]:
     }
 
     sheet_response = requests.post(sheety_endpoint,json=sheet_inputs)
-    
+
+    print(sheet_response.text)
+
 
